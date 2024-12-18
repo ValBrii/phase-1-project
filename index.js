@@ -11,18 +11,19 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Fetch jewellery items
-async function fetchJewellery() {
-    try {
-        const response = await fetch('http://localhost:3000/jewellery');
-        if (!response.ok) {
-            throw new Error('Failed to fetch jewellery items');
-        }
-        jewelleryList = await response.json();
-        displayJewellery(jewelleryList);
-    } catch (error) {
-        console.error(error);
-    }
-}
+fetch('http://localhost:3000/jewellery')
+.then(response=>response.json())
+.then(jewellery => {
+    jewellery.forEach(item => {
+        addJewelleryToDOM(item);
+    });
+})
+.catch(error => {
+    console.error('Error fetching jewellery:', error);
+});
+
+
+        
 
 // Display jewellery items
 function displayJewellery(items) {
