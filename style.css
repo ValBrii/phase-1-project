@@ -3,8 +3,9 @@ header{
     font-size: 30px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-    margin-bottom: 2px;
+    margin-bottom: 0.5px;
     padding: 1px;
+    
 }
 
 body {
@@ -32,4 +33,57 @@ button {
 }
 button:hover {
     background-color:rgb(216, 175, 203);
+}
+.jewellery-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Responsive columns */
+    gap: 20px; /* Spacing between grid items */
+    padding: 10px;
+}
+
+.jewellery-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.jewellery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.jewellery-item img {
+    width: 100%; /* Ensure images fit the grid item */
+    height: auto;
+    border-radius: 8px;
+}
+
+.jewellery-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.jewellery-item p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+button.add-to-cart {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.add-to-cart:hover {
+    background-color: #218838;
 }

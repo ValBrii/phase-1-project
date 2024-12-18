@@ -8,7 +8,7 @@
         "stones": ["Diamond"],
         "price": 2500.00,
         "stock": 10,
-        "image": "diamond necklace.png"
+        "image": "images.png/diamond necklace.png"
       },
       {
         "id": 2,
@@ -18,7 +18,7 @@
         "stones": ["Emerald"],
         "price": 1800.00,
         "stock": 5,
-        "image": "emerald ring.png"
+        "image": "images.png/emerald ring.png"
       },
       {
         "id": 3,
@@ -27,7 +27,8 @@
         "material": "Rose Gold",
         "stones": ["Ruby"],
         "price": 1500.00,
-        "stock": 15
+        "stock": 15, 
+        "image":"images.png/ruby earrings.png"
       },
       {
         "id": 4,
@@ -37,7 +38,7 @@
         "stones": ["Sapphire"],
         "price": 1200.00,
         "stock": 8,
-        "image": "sapphire bracelet.png"
+        "image": "images.png/sapphire bracelet.png"
       },
       {
         "id": 5,
@@ -47,7 +48,7 @@
         "stones": ["Pearl"],
         "price": 800.00,
         "stock": 20,
-        "image": "pearl necklace.png"
+        "image": "images.png/pearl necklace.png"
       },
       {
         "id": 6,
@@ -57,7 +58,7 @@
         "stones": ["Topaz"],
         "price": 500.00,
         "stock": 25,
-        "image": "topaz pendant.png"
+        "image": "images.png/topaz pendant.png"
       },
       {
         "id": 7,
@@ -67,7 +68,7 @@
         "stones": ["Amethyst"],
         "price": 400.00,
         "stock": 12,
-        "image":"Amethyst anklet.png"
+        "image":"images.png/Amethyst anklet.png"
       },
       {
         "id": 8,
@@ -77,7 +78,7 @@
         "stones": ["Citrine"],
         "price": 600.00,
         "stock": 6,
-        "image": "citrine brooch.png"
+        "image": "images.png/citrine brooch.png"
       },
       {
         "id": 9,
@@ -87,7 +88,7 @@
         "stones": ["Opal"],
         "price": 700.00,
         "stock": 10,
-        "image":"opal ring.png"
+        "image":"images.png/opal ring.png"
       },
       {
         "id": 10,
@@ -97,8 +98,110 @@
         "stones": ["Garnet"],
         "price": 900.00,
         "stock": 7,
-        "image":"garnet necklace.png"
+        "image":"images.png/garnet necklace.png"
+      },
+      {
+        "id": 11,
+        "name": "Aquamarine Earrings",
+        "category": "Earrings",
+        "material": "Platinum",
+        "stones": ["Aquamarine"],
+        "price": 1200.00,
+        "stock": 9,
+        "image": "images.png/aquamarine earrings.png"
+      },
+      {
+        "id": 12,
+        "name": "Peridot Bracelet",
+        "category": "Bracelet",
+        "material": "Yellow Gold",
+        "stones": ["Peridot"],
+        "price": 950.00,
+        "stock": 11,
+        "image": "images.png/peridot bracelet.png"
+      },
+      {
+        "id": 13,
+        "name": "Amber Pendant",
+        "category": "Pendant",
+        "material": "Silver",
+        "stones": ["Amber"],
+        "price": 300.00,
+        "stock": 18,
+        "image": "images.png/amber pendant.png"
+      },
+      {
+        "id": 14,
+        "name": "Moonstone Ring",
+        "category": "Ring",
+        "material": "Rose Gold",
+        "stones": ["Moonstone"],
+        "price": 700.00,
+        "stock": 14,
+        "image": "images.png/moonstone ring.png"
+      },
+      {
+        "id": 15,
+        "name": "Spinel Earrings",
+        "category": "Earrings",
+        "material": "Platinum",
+        "stones": ["Spinel"],
+        "price": 1100.00,
+        "stock": 6,
+        "image": "images.png/spinel earrings.png"
+      },
+      {
+        "id": 16,
+        "name": "Turquoise Anklet",
+        "category": "Anklet",
+        "material": "Silver",
+        "stones": ["Turquoise"],
+        "price": 450.00,
+        "stock": 10,
+        "image": "images.png/turquoise anklet.png"
+      },
+      {
+        "id": 17,
+        "name": "Zircon Necklace",
+        "category": "Necklace",
+        "material": "White Gold",
+        "stones": ["Zircon"],
+        "price": 1300.00,
+        "stock": 8,
+        "image": "images.png/zircon necklace.png"
+      },
+      {
+        "id": 18,
+        "name": "Lapis Lazuli Brooch",
+        "category": "Brooch",
+        "material": "Gold",
+        "stones": ["Lapis Lazuli"],
+        "price": 650.00,
+        "stock": 5,
+        "image": "images.png/lapis lazuli brooch.png"
+      },
+      {
+        "id": 19,
+        "name": "Tanzanite Bracelet",
+        "category": "Bracelet",
+        "material": "Platinum",
+        "stones": ["Tanzanite"],
+        "price": 1500.00,
+        "stock": 4,
+        "image": "images.png/tanzanite bracelet.png"
+      },
+      {
+        "id": 20,
+        "name": "Onyx Ring",
+        "category": "Ring",
+        "material": "Silver",
+        "stones": ["Onyx"],
+        "price": 500.00,
+        "stock": 9,
+        "image": "images.png/onyx ring.png"
       }
     ]
   }
+    
+  
   
