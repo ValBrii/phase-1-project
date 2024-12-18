@@ -4,3 +4,92 @@ header{
     text-align: center;
     font-style: italic;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header #searchBar {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  main {
+    display: flex;
+    padding: 20px;
+  }
+  
+  #jewellery-list {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  #jewellery-list .item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #jewellery-list .item img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  #jewellery-list .item button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #jewellery-list .item button.sold-out {
+    background-color: #dc3545;
+    cursor: not-allowed;
+  }
+  
+  aside {
+    flex: 1;
+    margin-left: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  aside ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  aside ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  aside #cart-total {
+    font-weight: bold;
+    text-align: right;
+  }
+  

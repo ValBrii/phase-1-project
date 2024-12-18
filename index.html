@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Jewellery Store</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <title>Jewellery Shop</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>Jewellery Store</header>
-    
+    <div class="container">
+        <h1>Jewellery Shop</h1>
+        
+        <!-- Search Bar with Button -->
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search for Jewellery...">
+            <button id="search-btn" onclick="searchJewellery()">Search</button>
+        </div>
+        
+        <!-- Jewellery List -->
+        <div id="jewellery-list" class="jewellery-list">
+            <!-- Jewellery Items will be dynamically populated here -->
+        </div>
+
+        <hr>
+        
+        <h2>Your Cart</h2>
+        <div id="cart" class="cart">
+            <!-- Cart items will be displayed here -->
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
