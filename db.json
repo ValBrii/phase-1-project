@@ -7,7 +7,8 @@
         "material": "Gold",
         "stones": ["Diamond"],
         "price": 2500.00,
-        "stock": 10
+        "stock": 10,
+        "image": "diamond necklace.png"
       },
       {
         "id": 2,
@@ -16,7 +17,8 @@
         "material": "Platinum",
         "stones": ["Emerald"],
         "price": 1800.00,
-        "stock": 5
+        "stock": 5,
+        "image": "emerald ring.png"
       },
       {
         "id": 3,
@@ -34,7 +36,8 @@
         "material": "White Gold",
         "stones": ["Sapphire"],
         "price": 1200.00,
-        "stock": 8
+        "stock": 8,
+        "image": "sapphire bracelet.png"
       },
       {
         "id": 5,
@@ -43,7 +46,8 @@
         "material": "Silver",
         "stones": ["Pearl"],
         "price": 800.00,
-        "stock": 20
+        "stock": 20,
+        "image": "pearl necklace.png"
       },
       {
         "id": 6,
@@ -52,7 +56,8 @@
         "material": "Gold",
         "stones": ["Topaz"],
         "price": 500.00,
-        "stock": 25
+        "stock": 25,
+        "image": "topaz pendant.png"
       },
       {
         "id": 7,
@@ -61,7 +66,8 @@
         "material": "Silver",
         "stones": ["Amethyst"],
         "price": 400.00,
-        "stock": 12
+        "stock": 12,
+        "image":"Amethyst anklet.png"
       },
       {
         "id": 8,
@@ -70,7 +76,8 @@
         "material": "Gold",
         "stones": ["Citrine"],
         "price": 600.00,
-        "stock": 6
+        "stock": 6,
+        "image": "citrine brooch.png"
       },
       {
         "id": 9,
@@ -79,7 +86,8 @@
         "material": "White Gold",
         "stones": ["Opal"],
         "price": 700.00,
-        "stock": 10
+        "stock": 10,
+        "image":"opal ring.png"
       },
       {
         "id": 10,
@@ -88,7 +96,8 @@
         "material": "Rose Gold",
         "stones": ["Garnet"],
         "price": 900.00,
-        "stock": 7
+        "stock": 7,
+        "image":"garnet necklace.png"
       }
     ]
   }
