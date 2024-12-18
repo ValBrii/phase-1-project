@@ -71,6 +71,24 @@
         "stones": ["Citrine"],
         "price": 600.00,
         "stock": 6
+      },
+      {
+        "id": 9,
+        "name": "Opal Ring",
+        "category": "Ring",
+        "material": "White Gold",
+        "stones": ["Opal"],
+        "price": 700.00,
+        "stock": 10
+      },
+      {
+        "id": 10,
+        "name": "Garnet Necklace",
+        "category": "Necklace",
+        "material": "Rose Gold",
+        "stones": ["Garnet"],
+        "price": 900.00,
+        "stock": 7
       }
     ]
   }
