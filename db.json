@@ -1,0 +1,77 @@
+{
+    "jewellery": [
+      {
+        "id": 1,
+        "name": "Diamond Necklace",
+        "category": "Necklace",
+        "material": "Gold",
+        "stones": ["Diamond"],
+        "price": 2500.00,
+        "stock": 10
+      },
+      {
+        "id": 2,
+        "name": "Emerald Ring",
+        "category": "Ring",
+        "material": "Platinum",
+        "stones": ["Emerald"],
+        "price": 1800.00,
+        "stock": 5
+      },
+      {
+        "id": 3,
+        "name": "Ruby Earrings",
+        "category": "Earrings",
+        "material": "Rose Gold",
+        "stones": ["Ruby"],
+        "price": 1500.00,
+        "stock": 15
+      },
+      {
+        "id": 4,
+        "name": "Sapphire Bracelet",
+        "category": "Bracelet",
+        "material": "White Gold",
+        "stones": ["Sapphire"],
+        "price": 1200.00,
+        "stock": 8
+      },
+      {
+        "id": 5,
+        "name": "Pearl Necklace",
+        "category": "Necklace",
+        "material": "Silver",
+        "stones": ["Pearl"],
+        "price": 800.00,
+        "stock": 20
+      },
+      {
+        "id": 6,
+        "name": "Topaz Pendant",
+        "category": "Pendant",
+        "material": "Gold",
+        "stones": ["Topaz"],
+        "price": 500.00,
+        "stock": 25
+      },
+      {
+        "id": 7,
+        "name": "Amethyst Anklet",
+        "category": "Anklet",
+        "material": "Silver",
+        "stones": ["Amethyst"],
+        "price": 400.00,
+        "stock": 12
+      },
+      {
+        "id": 8,
+        "name": "Citrine Brooch",
+        "category": "Brooch",
+        "material": "Gold",
+        "stones": ["Citrine"],
+        "price": 600.00,
+        "stock": 6
+      }
+    ]
+  }
+  
