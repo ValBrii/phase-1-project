@@ -12,13 +12,19 @@ body {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     margin-bottom: 0.5px;
-    padding: 1px;
+    padding: 20px;
     
 }
-form {
-    padding: 20px;
-    text-align:right ;
-}
+/* Align the search bar to the right */
+#search-bar {
+    position: absolute;
+    right: 20px; /* Adjust the value as needed */
+    top: 20px;  /* Adjust the value as needed */
+    padding: 10px;
+    font-size: 16px;
+    width: 200px; /* Set a specific width for the search bar */
+  }
+  
         
   
   #jewellery {
@@ -88,6 +94,12 @@ form {
   button:hover:not(:disabled) {
     background-color: #0056b3;
   }
-  
+  #search-btn:hover{
+    background-color: rgb(33, 144, 209);
+  }
+  button:hover {
+    background-color: #45a049; /* Darker green */
+    transform: scale(1.05); /* Slightly grow the button */
+  }
   
   
