@@ -57,7 +57,7 @@ fetch("http://localhost:3000/jewellery")
   .then(response => response.json())
   .then(data => {
     jewelleryItems = data;
-    displayJewelleryItems(jewelleryItems); // Display all items initially
+    displayJewelleryItems(jewelleryItems); 
   })
   .catch(error => console.error('Error fetching jewellery:', error));
 

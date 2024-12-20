@@ -15,22 +15,22 @@ body {
     padding: 20px;
     
 }
-/* Align the search bar to the right */
+
 #search-bar {
     position: absolute;
-    right: 20px; /* Adjust the value as needed */
-    top: 20px;  /* Adjust the value as needed */
+    right: 20px; 
+    top: 20px;  
     padding: 10px;
     font-size: 16px;
-    width: 200px; /* Set a specific width for the search bar */
+    width: 200px; 
   }
   
         
   
   #jewellery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 items per row */
-    gap: 20px; /* Space between items */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
     padding: 20px;
     list-style-type: none;
     margin: 0;
@@ -50,7 +50,7 @@ body {
   .jewellery-item img {
     width: 150px;
     height: 150px;
-    object-fit: cover; /* Maintain aspect ratio */
+    object-fit: cover; 
     margin-bottom: 10px;
   }
   
@@ -94,12 +94,7 @@ body {
   button:hover:not(:disabled) {
     background-color: #0056b3;
   }
-  #search-btn:hover{
-    background-color: rgb(33, 144, 209);
-  }
-  button:hover {
-    background-color: #45a049; /* Darker green */
-    transform: scale(1.05); /* Slightly grow the button */
-  }
+  
+  
   
   

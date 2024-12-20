@@ -1,10 +1,11 @@
 # Phase-1-project
-This project is about creating a jewellery store application that allows users to search for items and add them to their cart.
+This project is about creating a jewellery store application that allows users to search for items,add them to their cart as well as to remove the items from the cart.
 
 ## Features
 - Search for jewellery
 - Add items to cart
 - Show if an item is sold out
+- Remove items from cart
 
 ## Technologies used
 - HTML
