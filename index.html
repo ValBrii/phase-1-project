@@ -1,31 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <title>Jewellery Shop</title>
-    <link rel="stylesheet" href="style.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jewellery Shop</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>Jewellery Shop
-    <div id="jewellery store">
-        <form id="addJewelleryForm">
-            <input type="text" id="contactName" placeholder="Search for jewellery...">
-            <button id="search-btn" type="submit">Search</button>
-            <button id="view-cart-btn" type="submit">View Cart</button>
-        </form>
-     </div>
-    </header>
-    <div id="jewellery-list" class="jewellery-list">
-        <!-- Items will be dynamically added here -->
-    </div>
-    
+  <div>
+    <input type="text" id="search-bar" placeholder="Search for jewellery...">
+  </div>
 
-        
-        
-        
-        
+  <ul id="jewellery"></ul>
+  <div>
+    <h2>Shopping Cart</h2>
+    <ul id="cart"></ul>
+    <p id="cart-total">Total: $0.00</p>
+    <button id="checkout-btn" disabled>Checkout</button>
+  </div>
 
-    <script src="index.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
