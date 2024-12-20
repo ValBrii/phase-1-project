@@ -26,6 +26,15 @@ function createJewelleryMenuItem(jewellery) {
   stock.textContent = `Stock: ${jewellery.stock}`;
   stock.classList.add(jewellery.stock === 0 ? "sold-out" : "in-stock");
 
+  const category = document.createElement("p");
+  category.textContent = `Category: ${jewellery.category}`;
+
+  const material = document.createElement("p");
+  material.textContent = `Material: ${jewellery.material}`;
+
+  const stones = document.createElement("p");
+  stones.textContent = `Stones: ${jewellery.stones.join(", ")}`;
+
   const addToCartBtn = document.createElement("button");
   addToCartBtn.textContent = "Add to Cart";
   addToCartBtn.disabled = jewellery.stock === 0; // Disable if sold out
@@ -35,6 +44,9 @@ function createJewelleryMenuItem(jewellery) {
   li.appendChild(name);
   li.appendChild(price);
   li.appendChild(stock);
+  li.appendChild(category);
+  li.appendChild(material);
+  li.appendChild(stones);
   li.appendChild(addToCartBtn);
 
   jewelleryList.appendChild(li);
