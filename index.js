@@ -2,7 +2,7 @@ const jewelleryList = document.getElementById("jewellery");
 const cartList = document.getElementById("cart");
 const cartTotal = document.getElementById("cart-total");
 const checkoutBtn = document.getElementById("checkout-btn");
-const searchBar = document.getElementById("search-bar");
+const searchInput = document.getElementById("jewelleryItem");
 
 let cart = [];
 let jewelleryItems = [];
@@ -159,8 +159,11 @@ function filterJewellery(query) {
   displayJewelleryItems(filteredItems);
 }
 
-// Add event listener to search bar
-searchBar.addEventListener("input", (event) => {
-  const query = event.target.value;
+// Add event listener to search bar form submission
+const searchForm = document.getElementById("addJewelleryForm");
+searchForm.addEventListener("submit", (event) => {
+  event.preventDefault(); // Prevent form submission
+  const query = searchInput.value.trim();
   filterJewellery(query);
 });
+

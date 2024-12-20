@@ -3,7 +3,23 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
   }
+  header{
+    background-color: plum;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    margin-bottom: 0.5px;
+    padding: 1px;
+    
+}
+form {
+    padding: 20px;
+    text-align:right ;
+}
+        
   
   #jewellery {
     display: grid;
@@ -73,21 +89,5 @@ body {
     background-color: #0056b3;
   }
   
-  @media (max-width: 1200px) {
-    #jewellery {
-      grid-template-columns: repeat(3, 1fr); /* 3 items per row for medium screens */
-    }
-  }
   
-  @media (max-width: 800px) {
-    #jewellery {
-      grid-template-columns: repeat(2, 1fr); /* 2 items per row for smaller screens */
-    }
-  }
-  
-  @media (max-width: 500px) {
-    #jewellery {
-      grid-template-columns: 1fr; /* 1 item per row for very small screens */
-    }
-  }
   
